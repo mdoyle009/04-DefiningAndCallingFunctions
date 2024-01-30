@@ -26,7 +26,7 @@ def add_two_and_three():
 #
 #   In order to call the function, we need to call it by its name (that is the
 #   bit after the def where it says 'add_two_and_three'). That is the
-#   function's name. Functions also always have parenteses () after them.
+#   function's name. Functions also always have parentheses () after them.
 #   Sometimes they will have stuff between the parentheses but this one
 #   doesn't. We will take a look at both kinds.
 #   
@@ -46,4 +46,4 @@ def add_two_and_three():
 #   ask them now.
 ###############################################################################
     
-# add_two_and_three()
+add_two_and_three()

@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (4 pts)
+# DONE: 1. (4 pts)
 #
 #   As you saw in your pre-class quiz, we can also define functions that take
 #   information and do stuff with it. This information that the function uses
@@ -23,8 +23,14 @@
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 
+identity = input("What is your name? ")
+fancy = input("And what is your favorite color? ")
+def name_and_color(name, color):
+    print("Hello, " + name + "! I think " + color + " is a great color!")
+name_and_color(identity, fancy)
+
 ###############################################################################
-# TODO: 2. (4 pts)
+# DONE: 2. (4 pts)
 #
 #   Now, let's do something similar, but let's use keyword arguments (this is
 #   also something that you saw in the pre-class materials).
@@ -54,3 +60,9 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+user_name = input("What is your name? ")
+user_email = input("What is your email address? ")
+user_age = input("What is your age? ")
+def display_user_info(name, email, age):
+    print("Name: " + name + "\nEmail: " + email + "\nAge: " + age)
+display_user_info(name=user_name, email=user_email, age=user_age)
